@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+/*header style*/
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+/*left side of header */
+header a {
+    text-decoration: none;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    height: 100px;
+    margin-left: 30%;
+}
+#logoText {
+    color: white;
+    font-size: 2.4em;
+    margin-left: 15px;
+    text-decoration: none;
+}
+/*right side of header*/
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 50px;
+}
+.navigation nav{
+    display: flex;
+    justify-content: space-around;
+}
+.navigation nav a{
+    color: white;
+    font-size: 1.8em;
+    margin-left: 30px;
+    font-weight: 10;
+    text-decoration: none;
+}
+.navigation img {
+    height: 50px;
+    margin-left: 70px;
+}
+
+
+
+main h1 {
+    margin-top: 150px;
+}
+main {
+    display: block;
+}
+.superContainer {
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px;
+    margin: 40px auto 0;
+    justify-content: space-between;
+}
+.imgg {
+    height: 250px;
+    margin-left: 30%;
+}
+.info {
+    margin: 50px 0px 0 0; 
+}
+.name {
+    font-size: 1.7em;
+    margin-top: 10px;
+}
+
+.quantClass{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#quant {
+    display: flex;
+    align-items: center;
+}
+.quantBtn {
+    width: 25px;
+    height: 25px;
+}
+.quantClass p {
+    font-size: 1.7em;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#delet {
+    display: flex;
+    align-items: center;
+}
+#delet p {
+    font-size: 1.7em;
+}
+#delet button {
+    width: 25px;
+    margin-left: 10px;
+}
