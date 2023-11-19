@@ -65,6 +65,7 @@ main h1 {
 }
 main {
     display: block;
+    padding-bottom: 50px;
 }
 .superContainer {
     width: 80%;
@@ -116,4 +117,24 @@ main {
 #delet button {
     width: 25px;
     margin-left: 10px;
+}
+
+
+.totalPrice {
+    width: 80%;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-radius: 20px;
+display: flex;
+padding: 10px;
+margin: 40px auto 0;
+justify-content: space-between;
+}
+
+.totalPrice p {
+    font-size: 1.5em;
+}
+.buyButton {
+    background-color: green;
+    width: 50px;
+    border-radius: 20px;
 }

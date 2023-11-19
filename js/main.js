@@ -115,6 +115,8 @@ let watshDataMapped = watshData.map(it => {
 watshCard.insertAdjacentHTML('afterbegin',watshDataMapped.join(''));
 let addBtn = document.querySelectorAll(".add-to-cart-btn");
 let allData = [];
+if (JSON.parse(localStorage.getItem("dataSaved")) ){
+    allData = JSON.parse(localStorage.getItem("dataSaved"))}
 for(let i=0; i<addBtn.length;i++){
     addBtn[i].addEventListener("click",function(){
        
